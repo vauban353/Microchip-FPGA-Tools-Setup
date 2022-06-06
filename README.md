@@ -25,3 +25,10 @@ By default the script assumes that the tools are installed in your home director
 ```
 
 Edit the top of the script to adjust installation directory names if the tools are installed in other locations on your machine or if you are using different versions of the tools.
+
+## Notes on installing Libero 2022.1 on Ubuntu 22.04
+There are a couple pre-requisites required I did not see mentioned by the installer:
+```
+sudo apt-get install python3-pyqt5
+sudo apt-get install lsb
+```
