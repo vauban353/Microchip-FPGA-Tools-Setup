@@ -32,3 +32,6 @@ There are a couple pre-requisites required I did not see mentioned by the instal
 sudo apt-get install python3-pyqt5
 sudo apt-get install lsb
 ```
+
+## Notes about Libero license file
+Do not forget to replace *<put.hostname.here>* with *localhost* on the first line of "license.dat".
